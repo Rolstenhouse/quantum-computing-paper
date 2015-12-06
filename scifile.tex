@@ -15,6 +15,14 @@
 
 \usepackage{times}
 
+% Package for automaticall generating the table of contents
+
+\usepackage[utf8]{inputenc}
+
+% managing images
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
 % The preamble here sets up a lot of new/revised commands and
 % environments.  It's annoying, but please do *not* try to strip these
 % out into a separate .sty file (which could lead to the loss of some
@@ -77,6 +85,7 @@
 \\
 \normalsize{University of Florida}\\
 \normalsize{PHY3101: Modern Physics}\\
+\normalsize{Fall 2015}\\
 }
 
 % Include the date command, but leave its argument blank.
@@ -91,6 +100,8 @@
 
 \begin{document} 
 
+
+
 % Double-space the manuscript.
 
 \baselineskip24pt
@@ -98,15 +109,20 @@
 % Make the title.
 
 \maketitle 
-
-
-
+\begin{figure}
+\includegraphics[scale=.5]{superconductive}
+\centering
+\end{figure}
 % Place your abstract within the special {sciabstract} environment.
 
 \begin{sciabstract}
-  
+\section*{Abstract}
+Quantum computing is a potentially revolutionary principle which will be continued to be researched and studied for the foreseeable future as the importance of efficiency and the limit of binary computing is approached. This paper aims to provide an overview of the field of quantum computing for individuals with a minor understanding of physics, computer science, and mathematics. An introduction to quantum computing will leave the reader with a comfortable overview of the field and insight into which topic in particular they find most interesting.\\
+This paper will talk briefly about the brief history of quantum computing as well as the basics of quantum mechanics and the cornerstones which currently make quantum computing possible. It aims to establish the differences between conventional and quantum computing with a goal to speak about how certain algorithms will run more efficiently and what applications in the field this can be used for. Near the end, we will look at the current issues within the field and its future importance.
+
 \end{sciabstract}
 
+\tableofcontents
 
 
 % In setting up this template for *Science* papers, we've used both
@@ -119,7 +135,7 @@
 % choice.  Either way, use the asterisk (*) modifier, as shown, to
 % suppress numbering.
 
-\section*{Introduction}
+\section{Introduction}
 
 In this file, we present some tips and sample mark-up to assure your
 \LaTeX\ file of the smoothest possible journey from review manuscript
@@ -142,7 +158,7 @@ should be eminently reviewable, and yet will allow your paper to
 proceed quickly into our production flow upon acceptance \cite{use2e}.
 
 
-\section*{Formatting Citations}
+\section{Formatting Citations}
 
 Citations can be handled in one of three ways.  The most
 straightforward (albeit labor-intensive) would be to hardwire your
