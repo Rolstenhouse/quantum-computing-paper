@@ -1,2 +1,2 @@
 \contentsline {section}{\numberline {1}History}{4}
-\contentsline {section}{\numberline {2}Formatting Citations}{4}
+\contentsline {section}{\numberline {2}Quantum Mechanis}{4}

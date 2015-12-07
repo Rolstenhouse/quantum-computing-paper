@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2015 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.30)  6 DEC 2015 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (./scifile.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,22 +26,23 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Info: Redefining \cite on input line 160.
 LaTeX Info: Redefining \nocite on input line 227.
 Package: scicite 2003/11/04  v 4.01
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -191,7 +192,7 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -222,7 +223,7 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -246,31 +247,31 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -278,21 +279,21 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -309,26 +310,27 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks17
 )
 \c@lastnote=\count91
-
-(./scifile.aux)
+ (./scifile.aux)
 \openout1 = `scifile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 99.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen113
@@ -341,11 +343,11 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -354,22 +356,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -381,7 +383,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -423,101 +425,113 @@ e
 File: images/superconductive.jpg Graphic file (type jpg)
 
 <use images/superconductive.jpg>
-Package pdftex.def Info: images/superconductive.jpg used on input line 110.
+Package pdftex.def Info: images/superconductive.jpg used on input line 111.
 (pdftex.def)             Requested size: 293.74187pt x 196.99355pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 114.
+(Font)              <14.4> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 114.
+(Font)              <7> on input line 115.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/superconductive.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/superconductive.j
+pg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
  [2] (./scifile.toc)
 \tf@toc=\write3
 \openout3 = `scifile.toc'.
 
+ [3] [4]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 158.
 
-[3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 154.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 154.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 154.
- [4]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 160.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 205.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 203.
 
 
-LaTeX Warning: Citation `inclme' on page 5 undefined on input line 205.
+LaTeX Warning: Citation `inclme' on page 5 undefined on input line 203.
 
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 209.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspcr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
- [5] [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
+ [5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 222.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 222.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 222.
+ [6]
 
-LaTeX Warning: Citation `nattex' on page 7 undefined on input line 267.
+LaTeX Warning: Citation `nattex' on page 7 undefined on input line 265.
 
 [7]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 298.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 296.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 298.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 296.
 
-Overfull \hbox (15.8444pt too wide) in paragraph at lines 320--323
+Overfull \hbox (15.8444pt too wide) in paragraph at lines 318--321
 []\OT1/ptm/m/n/12 From B\OT1/ptm/m/n/10.95 IB\OT1/ptm/m/n/12 T[]X users, your b
 ib-li-og-ra-phy (\OT1/pcr/m/n/12 .bib\OT1/ptm/m/n/12 ) file, \OT1/ptm/m/it/12 a
 nd \OT1/ptm/m/n/12 the gen-er-ated file \OT1/pcr/m/n/12 ltxfile.bbl
  []
 
-[8]
+[8] <images/dilbert.jpg, id=38, 1003.75pt x 312.16624pt>
+File: images/dilbert.jpg Graphic file (type jpg)
+
+<use images/dilbert.jpg>
+Package pdftex.def Info: images/dilbert.jpg used on input line 329.
+(pdftex.def)             Requested size: 501.87378pt x 156.08273pt.
+
+Overfull \hbox (32.11876pt too wide) in paragraph at lines 329--331
+ [][] 
+ []
+
 No file scifile.bbl.
-[9] [10] [11
+[9 <./images/dilbert.jpg>] [10] [11
 
 ] (./scifile.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2429 strings out of 493089
- 34100 string characters out of 6134842
- 99804 words of memory out of 5000000
- 5858 multiletter control sequences out of 15000+600000
+ 2434 strings out of 493085
+ 33814 string characters out of 6136916
+ 99806 words of memory out of 5000000
+ 5862 multiletter control sequences out of 15000+600000
  22801 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,32p,691b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on scifile.pdf (11 pages, 170229 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on scifile.pdf (11 pages, 240386 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
