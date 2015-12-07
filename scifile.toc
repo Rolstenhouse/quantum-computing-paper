@@ -1,2 +1,14 @@
 \contentsline {section}{\numberline {1}History}{4}
-\contentsline {section}{\numberline {2}Quantum Mechanis}{4}
+\contentsline {section}{\numberline {2}Quantum Mechanics}{5}
+\contentsline {subsection}{\numberline {2.1}Double Slit Experiment}{5}
+\contentsline {section}{\numberline {3}Qubit}{6}
+\contentsline {subsection}{\numberline {3.1}Notation}{6}
+\contentsline {subsection}{\numberline {3.2}Implementation}{6}
+\contentsline {section}{\numberline {4}Applications}{6}
+\contentsline {subsection}{\numberline {4.1}Implementation}{6}
+\contentsline {section}{\numberline {5}Algorithms}{6}
+\contentsline {subsection}{\numberline {5.1}Shor's Algorithm}{6}
+\contentsline {subsection}{\numberline {5.2}Grover's Algorithm}{6}
+\contentsline {subsection}{\numberline {5.3}Deutsch Algorithm}{6}
+\contentsline {section}{\numberline {6}Error Correction and Measurement}{6}
+\contentsline {section}{\numberline {7}Future of Quantum Computing}{6}

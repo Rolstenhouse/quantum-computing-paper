@@ -52,13 +52,6 @@
 
 \renewcommand\refname{References and Notes}
 
-% The following lines set up an environment for the last note in the
-% reference list, which commonly includes acknowledgments of funding,
-% help, etc.  It's intended for users of BibTeX or the {thebibliography}
-% environment.  Users who are hand-coding their references at the end
-% using a list environment such as {enumerate} can simply add another
-% item at the end, and it will be numbered automatically.
-
 \newcounter{lastnote}
 \newenvironment{scilastnote}{%
 \setcounter{lastnote}{\value{enumiv}}%
@@ -120,7 +113,7 @@
 
 \begin{sciabstract}
 \section*{Abstract}
-Quantum computing is a potentially revolutionary principle which will be continued to be researched and studied for the foreseeable future as the importance of efficiency and the limit of binary computing is approached. This paper aims to provide an overview of the field of quantum computing for individuals with a minor understanding of physics, computer science, and mathematics. An introduction to quantum computing will leave the reader with a comfortable overview of the field and insight into which topic in particular they find most interesting.\\
+Quantum computing is a potentially revolutionary principle which will be continued to be researched and studied for the foreseeable future as the importance of efficiency and the limit of binary computing is approached. This paper aims to provide an overview of the field of quantum computing for individuals with a minor understanding of physics, computer science, and mathematics. An introduction to quantum computing will leave the reader with a comfortable overview of the field and insight into which topic in particular they find most interesting.\par
 This paper will talk briefly about the recent history of quantum computing as well as a small subset of quantum mechanicss as it relates to quantum computations and the cornerstones which currently make quantum computing possible. It aims to establish the differences between conventional and quantum computing with a goal to speak about how certain algorithms will run more efficiently and what applications in the field this can be used for. Near the end, we will look at the current issues within the field and its future importance.
 
 \end{sciabstract}
@@ -144,13 +137,37 @@ This paper will talk briefly about the recent history of quantum computing as we
 
 \section{History}
 
-Quantum computing is a relatively new field in relation to computer science as a discipline with the informal start originating in the late 1970's and early 1980's as Richard Feynman speculated that quantum mechanics could not be effectively modeled through a classical computer. In accordance with Moore's law, the size of a silicon ship would continue to shrink until the individual elements were no larger than several atoms and would be subject to quantum effects at that scale. Feynman published an abstract model in 1982 in which he analyzed the outcome of using a quantum simulator in order to avoid the exponential slowdown which is common with classical computers.\par
-In 1985, David Deutsch published a paper proving that any physical process could be, in theory, effectively rendered on a quantum computer. As a result, a quantum computer, which is able to operate in an exponential time, could provide a wide array of values for heavy data crunching, modelling of complex systems, or in the general solving NP-Complete problems in polynomial time. (INSERT FOOTNOTE) Deutsch proved a basic algorithm which will be worked through later in the paper. \par
-Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Complete factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers. As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.\par
+Quantum computing is a relatively new field in relation to computer science as a discipline with the informal start originating in the late 1970's and early 1980's as Richard Feynman speculated that quantum mechanics could not be effectively modeled through a classical computer. In accordance with Moore's law, the size of a silicon ship would continue to shrink until the individual elements were no larger than several atoms and would be subject to quantum effects at that scale. Feynman published an abstract model in 1982 in which he analyzed the outcome of using a quantum simulator in order to avoid the exponential slowdown which is common with classical computers.\cite{web}\par
+In 1985, David Deutsch published a paper proving that any physical process could be, in theory, effectively rendered on a quantum computer. As a result, a quantum computer, which is able to operate in an exponential time, could provide a wide array of values for heavy data crunching, modelling of complex systems, or in the general solving NP-Complete classical problems in polynomial time.
+\footnote{In computational complexity theory, a decision problem is NP-complete when it is both in NP and NP-hard. The set of NP-complete problems is often denoted by NP-C or NPC. The abbreviation NP refers to ``nondeterministic polynomial time''.\\Although any given solution to an NP-complete problem can be verified quickly (in polynomial time), there is no known efficient way to locate a solution in the first place.}
+Deutsch proved a basic algorithm which will be worked through later in the paper. \par
+Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Hard factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers.\cite{web} As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.\par
 
-\section{Quantum Mechanis}
+\section{Quantum Mechanics}
 
 As a quick note, the material that will only be covered consists of a very small section of quantum mechanics encompassing finite dimenstional quantum mechanic where the vector spaces which represent the states of the dimension are finite in size.\par
+
+\subsection{Double Slit Experiment}
+Young's double slit experiment is one of the most foundational experiments related to the field of quantum mechanics and demonstrates the wave-particle duality of photons when conducted. Before approaching the quantum model, it is interesting to explore a classical model and the probabilities associated with it before moving on.\par
+Pretend for a moment, that there is an experiment where there is a sharpshooter who is guaranteed to always shoot through one or the other open windows, with equal probability. Once the bullet passes through the window, it has an equal probability of hitting three targets. There is one target which is shared between both open windows. REFERENCE FIGURE 1. The probability matrix associated with this scene is shown. REFERENCE FIGURE 2 \par
+By representing the data points as a matrix, it is possible to identify the probability where the bullet might be found on the next time click by simply using matrix multiplication.\cite{intro}. The matrix shown above, \textit{B}, represents the state of the system after one time click. By multiplying the matrix by itself you are able to represent the state after two time clicks. REFERENCE FIGURE 3.\par
+The takeaway from this example is to show that after two time clicks the bullets will be in the state B^2X = [0,0,0,1/6,1/6,1/3,1/6,1/6]^T\\
+Which means that B^2[5,0] is equivalent to 1/3. Which is the two states 1/6+1/6.\par
+
+Pretend for a moment that the shooter has now been changed to a floodlight which can spread light into both of the windows with a similar setting.
+
+\section{Qubit}
+\subsection{Notation}
+\subsection{Implementation}
+
+\section{Applications}
+\subsection{Implementation}
+\section{Algorithms}
+\subsection{Shor's Algorithm}
+\subsection{Grover's Algorithm}
+\subsection{Deutsch Algorithm}
+\section{Error Correction and Measurement}
+\section{Future of Quantum Computing}
 
 
 
