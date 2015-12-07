@@ -23,11 +23,6 @@
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
-\usepackage{setspace}
-\onehalfspacing
-
-\usepackage[margin=1in]{geometry}
-
 % The preamble here sets up a lot of new/revised commands and
 % environments.  It's annoying, but please do *not* try to strip these
 % out into a separate .sty file (which could lead to the loss of some
@@ -37,6 +32,11 @@
 
 % The following parameters seem to provide a reasonable page setup.
 
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm 
+\textheight 21cm
+\footskip 1.0cm
 
 
 %The next command sets up an environment for the abstract to your paper.
@@ -96,6 +96,8 @@
 
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%
 
+
+
 \begin{document} 
 
 
@@ -143,9 +145,7 @@ This paper will talk briefly about the recent history of quantum computing as we
 
 \section{History}
 
-Quantum computing is a relatively new field in relation to computer science as a discipline with the informal start originating in the late 1970's and early 1980's as Richard Feynman speculated that quantum mechanics could not be effectively modeled through a classical computer. In accordance with Moore's law, the size of a silicon ship would continue to shrink until the individual elements were no larger than several atoms and would be subject to quantum effects at that scale. Feynman published an abstract model in 1982 in which he analyzed the outcome of using a quantum simulator in order to avoid the exponential slowdown which is common with classical computers.\\
-In 1985, David Deutsch published a paper proving that any physical process could be, in theory, effectively rendered on a quantum computer. As a result, a quantum computer, which is able to operate in an exponential time, could provide a wide array of values for heavy data crunching, modelling of complex systems, or in the general solving NP-Complete problems in polynomial time. (INSERT FOOTNOTE) Deutsch proved a basic algorithm which will be worked through later in the paper. \\
-Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Complete factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers. As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.
+
 
 \section{Formatting Citations}
 
@@ -217,19 +217,19 @@ notecalls.  In particular, observe the following requirements:
 
 \begin{enumerate}
 \item Please follow the style for references outlined at our author
-help site and embodied in recent issues of {\it Science}.  Each
-citation number should refer to a single reference; please do not
-concatenate several references under a single number.
+  help site and embodied in recent issues of {\it Science}.  Each
+  citation number should refer to a single reference; please do not
+  concatenate several references under a single number.
 \item Please cite your references and notes in text {\it only\/} using
-the standard \LaTeX\ \verb+\cite+ command, not another command
-driven by outside macros.
+  the standard \LaTeX\ \verb+\cite+ command, not another command
+  driven by outside macros.
 \item Please separate multiple citations within a single \verb+\cite+
-command using commas only; there should be {\it no space\/}
-between reference keynames.  That is, if you are citing two
-papers whose bibliography keys are \texttt{keyname1} and
-\texttt{keyname2}, the in-text cite should read
-\verb+\cite{keyname1,keyname2}+, {\it not\/}
-\verb+\cite{keyname1, keyname2}+.
+  command using commas only; there should be {\it no space\/}
+  between reference keynames.  That is, if you are citing two
+  papers whose bibliography keys are \texttt{keyname1} and
+  \texttt{keyname2}, the in-text cite should read
+  \verb+\cite{keyname1,keyname2}+, {\it not\/}
+  \verb+\cite{keyname1, keyname2}+.
 \end{enumerate}
 
 \noindent Failure to follow these guidelines could lead
@@ -296,34 +296,34 @@ What you should send to {\it Science\/} will depend on the stage your manuscript
 
 \begin{itemize}
 \item {\bf Important:} If you're sending in the initial submission of
-your manuscript (that is, the copy for evaluation and peer review),
-please send in {\it only\/} a PostScript or PDF version of the
-compiled file (including figures).  Please do not send in the \TeX\ 
-source, \texttt{.sty}, \texttt{.bbl}, or other associated files with
-your initial submission.  (For more information, please see the
-instructions at our Web submission site,
-http://www.submit2science.org/ .)
+  your manuscript (that is, the copy for evaluation and peer review),
+  please send in {\it only\/} a PostScript or PDF version of the
+  compiled file (including figures).  Please do not send in the \TeX\ 
+  source, \texttt{.sty}, \texttt{.bbl}, or other associated files with
+  your initial submission.  (For more information, please see the
+  instructions at our Web submission site,
+  http://www.submit2science.org/ .)
 \item When the time comes for you to send in your revised final
-manuscript (i.e., after peer review), we require that you include
-all source files and generated files in your upload.  Thus, if the
-name of your main source document is \texttt{ltxfile.tex}, you
-need to include:
+  manuscript (i.e., after peer review), we require that you include
+  all source files and generated files in your upload.  Thus, if the
+  name of your main source document is \texttt{ltxfile.tex}, you
+  need to include:
 \begin{itemize}
 \item \texttt{ltxfile.tex}.
 \item \texttt{ltxfile.aux}, the auxilliary file generated by the
-compilation.
+  compilation.
 \item A PostScript file (compiled using \texttt{dvips} or some other
-driver) of the \texttt{.dvi} file generated from
-\texttt{ltxfile.tex}, or a PDF file distilled from that
-PostScript.  You do not need to include the actual \texttt{.dvi}
-file in your upload.
+  driver) of the \texttt{.dvi} file generated from
+  \texttt{ltxfile.tex}, or a PDF file distilled from that
+  PostScript.  You do not need to include the actual \texttt{.dvi}
+  file in your upload.
 \item From B{\small{IB}}\TeX\ users, your bibliography (\texttt{.bib})
-file, {\it and\/} the generated file \texttt{ltxfile.bbl} created
-when you run B{\small{IB}}\TeX.
+  file, {\it and\/} the generated file \texttt{ltxfile.bbl} created
+  when you run B{\small{IB}}\TeX.
 \item Any additional \texttt{.sty} and \texttt{.bst} files called by
-the source code (though, for reasons noted earlier, we {\it
-strongly\/} discourage the use of such files beyond those
-mentioned in this document).
+  the source code (though, for reasons noted earlier, we {\it
+    strongly\/} discourage the use of such files beyond those
+  mentioned in this document).
 \end{itemize}
 \end{itemize}
 
@@ -353,17 +353,6 @@ can be used to generate a final numbered reference containing
 acknowledgments, sources of funding, and the like, per {\it Science\/}
 style.
 \end{scilastnote}
-
-\begin{thebibliography}{1}
-\bibitem{pro} 
-Preskill, John. ``Quantum Computing: Pro and Con.'' Diss. California Instute of Technology, 1996. Print. Covers the applications in which it will be used as well as the technical difficulties that are encountered with creating a quantum computer. Also encompasses the future of quantum computing
-\bibitem{non}
-Rieffel, Eleanor, and Wolfgang Polak. ``An Introduction to Quantum Computing for Non-Physicists.'' Diss. FX Palo Alto Laboratory, 2000. Print. Covers some algorithm efficiencies for conventional vs quantum computing and also covers basic applications of quantum computing in the field including cryptography.
-\bibitem{web}
-West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Rice University, 28 Apr. 2000. Web. 25 Oct. 2015. Provides a general purpose overview of the field of quantum computing. Includes a brief history of the field as well as current obstacles and research being done in the field.
-\bibitem{intro}
-Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. Presents an introduction to the mathematics behind quantum computing as well as an overview of the architecture necessary for quantum computing. This paper also presents Deutsch's Algorithm which will be spoken about and overviewed.
-\end{thebibliography}
 
 
 

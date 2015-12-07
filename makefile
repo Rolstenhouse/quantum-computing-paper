@@ -1,0 +1,2 @@
+PDFmake:
+	pdflatex scifile.tex
