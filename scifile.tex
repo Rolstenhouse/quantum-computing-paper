@@ -25,6 +25,7 @@
 
 \usepackage{setspace}
 \onehalfspacing
+\setlength{\parskip}{6pt}
 
 \usepackage[margin=1in]{geometry}
 
@@ -143,17 +144,13 @@ This paper will talk briefly about the recent history of quantum computing as we
 
 \section{History}
 
-Quantum computing is a relatively new field in relation to computer science as a discipline with the informal start originating in the late 1970's and early 1980's as Richard Feynman speculated that quantum mechanics could not be effectively modeled through a classical computer. In accordance with Moore's law, the size of a silicon ship would continue to shrink until the individual elements were no larger than several atoms and would be subject to quantum effects at that scale. Feynman published an abstract model in 1982 in which he analyzed the outcome of using a quantum simulator in order to avoid the exponential slowdown which is common with classical computers.\\
-In 1985, David Deutsch published a paper proving that any physical process could be, in theory, effectively rendered on a quantum computer. As a result, a quantum computer, which is able to operate in an exponential time, could provide a wide array of values for heavy data crunching, modelling of complex systems, or in the general solving NP-Complete problems in polynomial time. (INSERT FOOTNOTE) Deutsch proved a basic algorithm which will be worked through later in the paper. \\
-Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Complete factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers. As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.
+Quantum computing is a relatively new field in relation to computer science as a discipline with the informal start originating in the late 1970's and early 1980's as Richard Feynman speculated that quantum mechanics could not be effectively modeled through a classical computer. In accordance with Moore's law, the size of a silicon ship would continue to shrink until the individual elements were no larger than several atoms and would be subject to quantum effects at that scale. Feynman published an abstract model in 1982 in which he analyzed the outcome of using a quantum simulator in order to avoid the exponential slowdown which is common with classical computers.\par
+In 1985, David Deutsch published a paper proving that any physical process could be, in theory, effectively rendered on a quantum computer. As a result, a quantum computer, which is able to operate in an exponential time, could provide a wide array of values for heavy data crunching, modelling of complex systems, or in the general solving NP-Complete problems in polynomial time. (INSERT FOOTNOTE) Deutsch proved a basic algorithm which will be worked through later in the paper. \par
+Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Complete factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers. As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.\par
 
-\section{Formatting Citations}
+\section{Quantum Mechanis}
 
-Citations can be handled in one of three ways.  The most
-straightforward (albeit labor-intensive) would be to hardwire your
-citations into your \LaTeX\ source, as you would if you were using an
-ordinary word processor.  Thus, your code might look something like
-this:
+As a quick note, the material that will only be covered consists of the a very small section of quantum mechanics...
 
 
 \begin{quote}
@@ -354,6 +351,8 @@ acknowledgments, sources of funding, and the like, per {\it Science\/}
 style.
 \end{scilastnote}
 
+\newpage
+
 \begin{thebibliography}{1}
 \bibitem{pro} 
 Preskill, John. ``Quantum Computing: Pro and Con.'' Diss. California Instute of Technology, 1996. Print. Covers the applications in which it will be used as well as the technical difficulties that are encountered with creating a quantum computer. Also encompasses the future of quantum computing
@@ -365,21 +364,6 @@ West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Ric
 Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. Presents an introduction to the mathematics behind quantum computing as well as an overview of the architecture necessary for quantum computing. This paper also presents Deutsch's Algorithm which will be spoken about and overviewed.
 \end{thebibliography}
 
-
-
-
-% For your review copy (i.e., the file you initially send in for
-% evaluation), you can use the {figure} environment and the
-% \includegraphics command to stream your figures into the text, placing
-% all figures at the end.  For the final, revised manuscript for
-% acceptance and production, however, PostScript or other graphics
-% should not be streamed into your compliled file.  Instead, set
-% captions as simple paragraphs (with a \noindent tag), setting them
-% off from the rest of the text with a \clearpage as shown  below, and
-% submit figures as separate files according to the Art Department's
-% instructions.
-
-
 \clearpage
 
 \noindent {\bf Fig. 1.} Please do not use figure environments to set
@@ -390,8 +374,6 @@ the text per {\it Science\/} style, and include the list of captions at
 the end of the document, coded as ordinary paragraphs as shown in the
 \texttt{scifile.tex} template file.  Your actual figure files should
 be submitted separately.
-
-
 
 \end{document}
 

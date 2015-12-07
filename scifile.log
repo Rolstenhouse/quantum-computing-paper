@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2015 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2015 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,11 +449,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 154.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 154.
+ [4]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 160.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [4]
+)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 205.
 
@@ -486,25 +487,23 @@ ib-li-og-ra-phy (\OT1/pcr/m/n/12 .bib\OT1/ptm/m/n/12 ) file, \OT1/ptm/m/it/12 a
 nd \OT1/ptm/m/n/12 the gen-er-ated file \OT1/pcr/m/n/12 ltxfile.bbl
  []
 
+[8]
 No file scifile.bbl.
-[8] [9] [10
+[9] [10] [11
 
 ] (./scifile.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  2429 strings out of 493089
  34100 string characters out of 6134842
- 99812 words of memory out of 5000000
+ 99804 words of memory out of 5000000
  5858 multiletter control sequences out of 15000+600000
  22801 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,32p,689b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,32p,691b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
@@ -515,10 +514,10 @@ xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on scifile.pdf (10 pages, 170107 bytes).
+Output written on scifile.pdf (11 pages, 170229 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
