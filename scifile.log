@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 DEC 2015 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 DEC 2015 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -286,6 +286,64 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \WF@everypar=\toks17
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen107
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks19
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks20
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -306,172 +364,114 @@ L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
 L3 Module: l3str 2015/03/01 v5545 L3 Strings
 L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
 L3 Module: l3int 2015/02/21 v5529 L3 Integers
-\c_max_int=\count89
-\l_tmpa_int=\count90
-\l_tmpb_int=\count91
-\g_tmpa_int=\count92
-\g_tmpb_int=\count93
+\c_max_int=\count101
+\l_tmpa_int=\count102
+\l_tmpb_int=\count103
+\g_tmpa_int=\count104
+\g_tmpb_int=\count105
 L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
 L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
-\g__prg_map_int=\count94
+\g__prg_map_int=\count106
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2015/02/26 v5537 L3 Messages
 L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
-\l_iow_line_count_int=\count95
-\l__iow_target_count_int=\count96
-\l__iow_current_line_int=\count97
-\l__iow_current_word_int=\count98
-\l__iow_current_indentation_int=\count99
+\l_iow_line_count_int=\count107
+\l__iow_target_count_int=\count108
+\l__iow_current_line_int=\count109
+\l__iow_current_word_int=\count110
+\l__iow_current_indentation_int=\count111
 L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
-\c_zero_dim=\dimen107
-\c_max_dim=\dimen108
-\l_tmpa_dim=\dimen109
-\l_tmpb_dim=\dimen110
-\g_tmpa_dim=\dimen111
-\g_tmpb_dim=\dimen112
-\c_zero_skip=\skip43
-\c_max_skip=\skip44
-\l_tmpa_skip=\skip45
-\l_tmpb_skip=\skip46
-\g_tmpa_skip=\skip47
-\g_tmpb_skip=\skip48
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/01/27 v5500 L3 Key-value interfaces
-\g__keyval_level_int=\count100
-\l_keys_choice_int=\count101
+\g__keyval_level_int=\count112
+\l_keys_choice_int=\count113
 L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
-\c__fp_leading_shift_int=\count102
-\c__fp_middle_shift_int=\count103
-\c__fp_trailing_shift_int=\count104
-\c__fp_big_leading_shift_int=\count105
-\c__fp_big_middle_shift_int=\count106
-\c__fp_big_trailing_shift_int=\count107
-\c__fp_Bigg_leading_shift_int=\count108
-\c__fp_Bigg_middle_shift_int=\count109
-\c__fp_Bigg_trailing_shift_int=\count110
+\c__fp_leading_shift_int=\count114
+\c__fp_middle_shift_int=\count115
+\c__fp_trailing_shift_int=\count116
+\c__fp_big_leading_shift_int=\count117
+\c__fp_big_middle_shift_int=\count118
+\c__fp_big_trailing_shift_int=\count119
+\c__fp_Bigg_leading_shift_int=\count120
+\c__fp_Bigg_middle_shift_int=\count121
+\c__fp_Bigg_trailing_shift_int=\count122
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
-\c_empty_box=\box27
-\l_tmpa_box=\box28
-\l_tmpb_box=\box29
-\g_tmpa_box=\box30
-\g_tmpb_box=\box31
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
 L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
-\l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen113
-\l__coffin_offset_x_dim=\dimen114
-\l__coffin_offset_y_dim=\dimen115
-\l__coffin_x_dim=\dimen116
-\l__coffin_y_dim=\dimen117
-\l__coffin_x_prime_dim=\dimen118
-\l__coffin_y_prime_dim=\dimen119
-\c_empty_coffin=\box33
-\l__coffin_aligned_coffin=\box34
-\l__coffin_aligned_internal_coffin=\box35
-\l_tmpa_coffin=\box36
-\l_tmpb_coffin=\box37
-\l__coffin_display_coffin=\box38
-\l__coffin_display_coord_coffin=\box39
-\l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen120
-\l__coffin_display_x_dim=\dimen121
-\l__coffin_display_y_dim=\dimen122
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen129
+\l__coffin_display_x_dim=\dimen130
+\l__coffin_display_y_dim=\dimen131
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen123
-\l__box_bottom_dim=\dimen124
-\l__box_left_dim=\dimen125
-\l__box_right_dim=\dimen126
-\l__box_top_new_dim=\dimen127
-\l__box_bottom_new_dim=\dimen128
-\l__box_left_new_dim=\dimen129
-\l__box_right_new_dim=\dimen130
-\l__box_internal_box=\box41
-\l__coffin_bounding_shift_dim=\dimen131
-\l__coffin_left_corner_dim=\dimen132
-\l__coffin_right_corner_dim=\dimen133
-\l__coffin_bottom_corner_dim=\dimen134
-\l__coffin_top_corner_dim=\dimen135
-\l__coffin_scaled_total_height_dim=\dimen136
-\l__coffin_scaled_width_dim=\dimen137
+\l__box_top_dim=\dimen132
+\l__box_bottom_dim=\dimen133
+\l__box_left_dim=\dimen134
+\l__box_right_dim=\dimen135
+\l__box_top_new_dim=\dimen136
+\l__box_bottom_new_dim=\dimen137
+\l__box_left_new_dim=\dimen138
+\l__box_right_new_dim=\dimen139
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
 File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/03/01 v5544 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count111
+\l__driver_color_stack_int=\count123
 ))
 Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count112
-\l__xparse_m_args_int=\count113
-\l__xparse_mandatory_args_int=\count114
-\l__xparse_processor_int=\count115
-\l__xparse_v_nesting_int=\count116
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip49
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen138
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen139
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count117
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count118
-\leftroot@=\count119
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count120
-\DOTSCASE@=\count121
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box42
-\strutbox@=\box43
-\big@size=\dimen140
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
-\dotsspace@=\muskip16
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
-\tag@help=\toks19
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
-\andhelp@=\toks20
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
-\@envbody=\toks21
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+\l__xparse_current_arg_int=\count124
+\l__xparse_m_args_int=\count125
+\l__xparse_mandatory_args_int=\count126
+\l__xparse_processor_int=\count127
+\l__xparse_v_nesting_int=\count128
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1383,19 +1383,19 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (./scifile.aux)
 \openout1 = `scifile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 97.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1493,16 +1493,16 @@ e
 File: images/superconductive.jpg Graphic file (type jpg)
 
 <use images/superconductive.jpg>
-Package pdftex.def Info: images/superconductive.jpg used on input line 105.
+Package pdftex.def Info: images/superconductive.jpg used on input line 106.
 (pdftex.def)             Requested size: 293.74187pt x 196.99355pt.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/superconductive.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
  [2] (./scifile.toc)
 \tf@toc=\write3
 \openout3 = `scifile.toc'.
@@ -1510,138 +1510,104 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 
 [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
  [4] <images/classicslit.png, id=19, 328.22626pt x 391.4625pt>
 File: images/classicslit.png Graphic file (type png)
 
 <use images/classicslit.png>
-Package pdftex.def Info: images/classicslit.png used on input line 155.
+Package pdftex.def Info: images/classicslit.png used on input line 156.
 (pdftex.def)             Requested size: 234.8775pt x 280.13248pt.
 
-<images/classicB2.png, id=21, 361.35pt x 215.80624pt>
+<images/classicB.png, id=21, 237.88875pt x 222.8325pt>
+File: images/classicB.png Graphic file (type png)
+
+<use images/classicB.png>
+Package pdftex.def Info: images/classicB.png used on input line 164.
+(pdftex.def)             Requested size: 237.88815pt x 222.83195pt.
+
+<images/classicB2.png, id=22, 361.35pt x 215.80624pt>
 File: images/classicB2.png Graphic file (type png)
 
 <use images/classicB2.png>
-Package pdftex.def Info: images/classicB2.png used on input line 165.
+Package pdftex.def Info: images/classicB2.png used on input line 171.
 (pdftex.def)             Requested size: 234.8775pt x 140.27568pt.
- [5 <./images/classicB2.png> <./images/classicslit.png>] <images/quantumslit.pn
-g, id=27, 393.47pt x 420.57124pt>
+ [5 <./images/classicB.png> <./images/classicslit.png>] <images/quantumslit.png
+, id=28, 393.47pt x 420.57124pt>
 File: images/quantumslit.png Graphic file (type png)
 
 <use images/quantumslit.png>
-Package pdftex.def Info: images/quantumslit.png used on input line 172.
+Package pdftex.def Info: images/quantumslit.png used on input line 178.
 (pdftex.def)             Requested size: 234.8775pt x 251.0548pt.
 
-Underfull \hbox (badness 2644) in paragraph at lines 173--173
-[]\OT1/ptm/m/n/12 Figure 3: Cor-re-spond-ing quan-tum mod-u-lus
+Underfull \hbox (badness 2644) in paragraph at lines 179--179
+[]\OT1/ptm/m/n/12 Figure 4: Cor-re-spond-ing quan-tum mod-u-lus
  []
 
-<images/quantumP.png, id=28, 354.32375pt x 253.94875pt>
+<images/quantumP.png, id=29, 354.32375pt x 253.94875pt>
 File: images/quantumP.png Graphic file (type png)
 
 <use images/quantumP.png>
-Package pdftex.def Info: images/quantumP.png used on input line 179.
+Package pdftex.def Info: images/quantumP.png used on input line 185.
 (pdftex.def)             Requested size: 234.8775pt x 168.34293pt.
- <images/quantumP2.png, id=29, 385.44pt x 228.855pt>
+ <images/quantumP2.png, id=30, 385.44pt x 228.855pt>
 File: images/quantumP2.png Graphic file (type png)
 
 <use images/quantumP2.png>
-Package pdftex.def Info: images/quantumP2.png used on input line 184.
+Package pdftex.def Info: images/quantumP2.png used on input line 190.
 (pdftex.def)             Requested size: 234.8775pt x 139.45816pt.
 
-<images/quantumProbability.png, id=30, 323.2075pt x 209.78375pt>
+<images/quantumProbability.png, id=31, 323.2075pt x 209.78375pt>
 File: images/quantumProbability.png Graphic file (type png)
 
 <use images/quantumProbability.png>
-Package pdftex.def Info: images/quantumProbability.png used on input line 190.
+Package pdftex.def Info: images/quantumProbability.png used on input line 196.
 (pdftex.def)             Requested size: 234.8775pt x 152.45262pt.
 
-Underfull \hbox (badness 1142) in paragraph at lines 175--192
+Underfull \hbox (badness 1142) in paragraph at lines 181--198
 \OT1/ptm/m/n/12 through the win-dows, it again trav-els ran-
  []
 
-[6 <./images/quantumP.png> <./images/quantumslit.png>] [7 <./images/quantumP2.p
-ng> <./images/quantumProbability.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 222.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [8] [9]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 267.
-
-
-LaTeX Warning: Citation `inclme' on page 10 undefined on input line 267.
-
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 273.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
- [10]
-
-LaTeX Warning: Citation `nattex' on page 11 undefined on input line 329.
-
-[11]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 360.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 360.
-
-Overfull \hbox (15.8444pt too wide) in paragraph at lines 382--385
-[]\OT1/ptm/m/n/12 From B\OT1/ptm/m/n/10.95 IB\OT1/ptm/m/n/12 T[]X users, your b
-ib-li-og-ra-phy (\OT1/pcr/m/n/12 .bib\OT1/ptm/m/n/12 ) file, \OT1/ptm/m/it/12 a
-nd \OT1/ptm/m/n/12 the gen-er-ated file \OT1/pcr/m/n/12 ltxfile.bbl
- []
-
-<images/dilbert.jpg, id=64, 1003.75pt x 312.16624pt>
+[6 <./images/classicB2.png> <./images/quantumslit.png>] [7 <./images/quantumP.p
+ng> <./images/quantumP2.png>] [8 <./images/quantumProbability.png>] [9]
+<images/dilbert.jpg, id=58, 1003.75pt x 312.16624pt>
 File: images/dilbert.jpg Graphic file (type jpg)
  <use images/dilbert.jpg>
-Package pdftex.def Info: images/dilbert.jpg used on input line 393.
+Package pdftex.def Info: images/dilbert.jpg used on input line 240.
 (pdftex.def)             Requested size: 501.87378pt x 156.08273pt.
 
-Overfull \hbox (32.11876pt too wide) in paragraph at lines 393--395
+Overfull \hbox (32.11876pt too wide) in paragraph at lines 240--242
  [][] 
  []
 
+[10]
 No file scifile.bbl.
-[12] [13 <./images/dilbert.jpg>] (./scifile.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[11 <./images/dilbert.jpg>] [12] (./scifile.aux) ) 
 Here is how much of TeX's memory you used:
- 9500 strings out of 493089
- 169768 string characters out of 6134842
- 217777 words of memory out of 5000000
- 12876 multiletter control sequences out of 15000+600000
- 28949 words of font info for 59 fonts, out of 8000000 for 9000
+ 9426 strings out of 493089
+ 168641 string characters out of 6134842
+ 218777 words of memory out of 5000000
+ 12815 multiletter control sequences out of 15000+600000
+ 25220 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,8n,39p,10383b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on scifile.pdf (13 pages, 551225 bytes).
+ 45i,8n,39p,10383b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texm
+f-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on scifile.pdf (12 pages, 574378 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
