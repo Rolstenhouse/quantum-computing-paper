@@ -22,6 +22,7 @@
 % managing images
 \usepackage{graphicx}
 \graphicspath{ {images/} }
+\usepackage{wrapfig}
 
 \usepackage{setspace}
 \onehalfspacing
@@ -149,7 +150,16 @@ As a quick note, the material that will only be covered consists of a very small
 
 \subsection{Double Slit Experiment}
 Young's double slit experiment is one of the most foundational experiments related to the field of quantum mechanics and demonstrates the wave-particle duality of photons when conducted. Before approaching the quantum model, it is interesting to explore a classical model and the probabilities associated with it before moving on.\par
-Pretend for a moment, that there is an experiment where there is a sharpshooter who is guaranteed to always shoot through one or the other open windows, with equal probability. Once the bullet passes through the window, it has an equal probability of hitting three targets. There is one target which is shared between both open windows. REFERENCE FIGURE 1. The probability matrix associated with this scene is shown. REFERENCE FIGURE 2 \par
+Pretend for a moment, that there is an experiment where there is a sharpshooter who is guaranteed to always shoot through one or the other open windows, with equal probability. Once the bullet passes through the window, it has an equal probability of hitting three targets. There is one target which is shared between both open windows. The probability matrix associated with this scene is shown. 
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{classicslit}
+\end{wrapfigure}
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{classicB2}
+\end{wrapfigure}
+\par
 By representing the data points as a matrix, it is possible to identify the probability where the bullet might be found on the next time click by simply using matrix multiplication.\cite{intro}. The matrix shown above, \textit{B}, represents the state of the system after one time click. By multiplying the matrix by itself you are able to represent the state after two time clicks. REFERENCE FIGURE 3.\par
 The takeaway from this example is to show that after two time clicks the bullets will be in the state \[B^2X = [0,0,0,\frac{1}{6},\frac{1}{6},\frac{1}{3},\frac{1}{6},\frac{1}{6}]^T\]
 Which means that \(B^2[5,0]\) is equivalent to \(\frac{1}{3}\). Which is the two states \(\frac{1}{6}+\frac{1}{6}\).\par
