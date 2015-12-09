@@ -5,13 +5,13 @@
 \contentsline {subsection}{\numberline {2.3}Bracket Notation}{9}
 \contentsline {subsection}{\numberline {2.4}Observations}{10}
 \contentsline {section}{\numberline {3}Qubit}{11}
-\contentsline {subsection}{\numberline {3.1}Notation}{11}
-\contentsline {subsection}{\numberline {3.2}Implementation}{11}
-\contentsline {section}{\numberline {4}Applications}{11}
-\contentsline {subsection}{\numberline {4.1}Implementation}{11}
-\contentsline {section}{\numberline {5}Algorithms}{11}
-\contentsline {subsection}{\numberline {5.1}Shor's Algorithm}{11}
-\contentsline {subsection}{\numberline {5.2}Grover's Algorithm}{11}
-\contentsline {subsection}{\numberline {5.3}Deutsch Algorithm}{11}
-\contentsline {section}{\numberline {6}Error Correction and Measurement}{11}
-\contentsline {section}{\numberline {7}Future of Quantum Computing}{11}
+\contentsline {subsection}{\numberline {3.1}Notation}{12}
+\contentsline {subsection}{\numberline {3.2}Implementation}{12}
+\contentsline {section}{\numberline {4}Applications}{12}
+\contentsline {subsection}{\numberline {4.1}Implementation}{12}
+\contentsline {section}{\numberline {5}Algorithms}{12}
+\contentsline {subsection}{\numberline {5.1}Shor's Algorithm}{12}
+\contentsline {subsection}{\numberline {5.2}Grover's Algorithm}{12}
+\contentsline {subsection}{\numberline {5.3}Deutsch Algorithm}{12}
+\contentsline {section}{\numberline {6}Error Correction and Measurement}{12}
+\contentsline {section}{\numberline {7}Future of Quantum Computing}{12}

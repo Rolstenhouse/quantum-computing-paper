@@ -196,23 +196,39 @@ The inherent properties of unitary transformations indicate that the total proba
 Furthermore, unitary transformations are fully reversible. This property can be shown to be true because $\ket{\psi} \mapsto U\ket{psi}$ preserves the normal standardization across states it can then be set that $1 = \bra{\psi}\ket{\psi} = \bra{\psi}U^ \dagger U\ket{\psi} $ for all unit vectors $\ket{\psi}$. By linearity it follows that $U^\dagger U = I$ which indicates invertibility. 
 \footnote{The format used is known as bracket notation and will be understood in the following subsection. Where the $\bra{x}$ represents the ``bra'' section and the $\ket{x}$ represents the ``ket'' section and the entire representation can be shown by $\bra{x}\ket{x}$}
 
-\subsection{Bracket Notation}\footnote{This section focuses on the ``ket'' of the bracket notation. The matching ``bra'' $\bra{x}$ denotes the conjugate transpose of $\ket{x}$. This choice is arbitrary, but is the convention which is widely used when talking about quantum computing \cite{non}}
-An $n$ dimensional quantum system indicates that a particle can be in one of $n$ states or positions. The quantum system could also represent the energy level of the photon polarization direction; however, for the purpose of defining the bracket notation consider just the position of the particle.
+\subsection{Bracket Notation}
+An $n$ dimensional quantum system indicates that a particle can be in one of $n$ states or positions. The quantum system could also represent the energy level of the photon polarization direction; however, for the purpose of defining the bracket notation consider just the position of the particle.\footnote{This section focuses on the ``ket'' of the bracket notation. The matching ``bra'' $\bra{x}$ denotes the conjugate transpose of $\ket{x}$. This choice is arbitrary, but is the convention which is widely used when talking about quantum computing \cite{non}}\par
 The state $$\ket{\psi} = [0,1,0,0,...,0]^T$$ is to represent that the particle is found at position 1. Similarly the state $$\ket{\psi'} = [0,...,1,...,0]^T$$ is said to be found at the position $j$ where the particle can be found. These states, where the particle can be certainly found are known as pure states. A superposition of the general form $$\ket{\phi} = [c_0, c_1,...,c_{j},...,c_{n-1}]^T$$ can be added to another superposition state simply by adding elements individually. Adding the inital to $$\ket{\phi'} = [c_0', c_1',...,c_{j}',...,c'_{n-1}]^T$$ yields
 $$\ket{\phi} + \ket{\phi'} = [c_0+c_0', c_1+c_1', ..., c_{j}+c'_{j},..., c_{n-1} + c'_{n-1}]^T$$ This process of adding the complex vector spaces are valid and yied accurate results.\par
-The only component which matters is not the length $\ket{\phi}$, but only the direction of the component. Working with these vectors, it makes more sense to work with a normalized version of the vector $$\frac{\ket{\phi}}{\left|\ket{\phi}\right|}$$\par
+The only component which matters is not the length $\ket{\phi}$, but the direction of the component. Working with these vectors, it makes more sense to work with a normalized version of the vector $$\frac{\ket{\phi}}{\left|\ket{\phi}\right|}$$\par
 
 While this works for adding the superposition states together in order to combine quantum systems it becomes necessary to calculate the tensor product \footnote{SOME INFORMATION ON THE TENSOR PRODUCT PLACED IN HERE}. If we take $\ket{\phi}$ to be the first quantum system and take $\ket{\phi'}$ to be the second quantum system we represent the combined system as $$\ket{\phi}\otimes\ket{\phi'} = \ket{\phi, \phi'} = \ket{\phi \phi'}$$
 
 \subsection{Observations}
 As mentioned before, when a quantum superpositiion state it condenses to a single pure state in order for the experiment to show the particle at a single position. In an attempt to predict which state the particle will condense to we look at the sum of the squares of the modulus\cite{intro} 
 $$S = \left|c_0\right|^2 + \left|c_1\right|^2 + \left|c_{j}\right|^2 +\left|c_{n-1}\right|^2$$ 
-Therefore there is a $\left|c_0\right|^2\!/S$ chance of the superposition collapsing to the $0th$ pure state and a $\left|c_1\right|^2\!/S$ chance of collapsing to the $1st$ pure state as the way that the quantum state collapses is random, but can be represented as a hermition.
-\footnote{an $ n x n $ matrix is considered hermition if $A = A^\dagger $. In other words, only if $ A^T = \overline{A} $}
+Therefore there is a $\left|c_0\right|^2\!/S$ chance of the superposition collapsing to the $0th$ pure state and a $\left|c_1\right|^2\!/S$ chance of collapsing to the $1st$ pure state as the way that the quantum state collapses is random, but can be represented as a hermitian.
+\footnote{an $ n\times n $ matrix is considered hermition if $A = A^\dagger $. In other words, only if $ A^T = \overline{A} $}
 \par
-
-
+\textbf{Eigenvalue} is a real number which can be found in a hermitian matrix if for a matrix $A$ in $M^{n\times ns}$, there is a number $m$ in $M$ and a vector $\ket{\phi}$ in $M^n$ such that $A\ket{\phi} = m\ket{\phi}$. $m$ in this case is an Eigenvalue, where $\ket{\phi}$ is known as a \textbf{Eigenvector} of $A$ associated with $m$.\par
+All eigenvalues in a hermitian matrix are all real numbers. Furthermore, distinct eigenvectors which have distinct eigenvalues of a hermitian matrix are orthogonal. It follows that the set of eigenvectors form a basis for the entire complex vector space which represents the quantum of interest. \cite{intro}. Taking $A\ket{\phi} = m\ket{\phi}$, it becomes obvious that, as stated before, the only part of the state that matters is the direction rather than the length. This means that $m\ket{\phi} = \ket{\phi}$ A critical assumption which can be made following this statement is that if the current state of the quantum system is based on the eigenvector basis, than the system will not change.
 \section{Qubit}
+Fundamentally, a bit is the state of any system. A classical bit represents one of two distinct positions for a scenario as in a 1 or 0, on or off, true or false. In classical computers all data is stored, shuttled, and interpreted through 1's or 0's. Due to the binary state of data, this limits the number of computations that can be done at any single time on a classical machine.\par
+Quantum bits (qubits), rather, is a unit vector in a two dimensional complex vector space. When observed a quantum bit will settle into either a $\ket{0}$ or $\ket{1}$ binary state. The implementation of a qubit could correspond to the polarization of the photon or the spin-up or spin-down components of an electron.\cite{non} A quantum bit can be represented as a superposition of $\ket{0}$ or $\ket{1}$ such that $a\ket{0}+b\ket{1}$ where $a$ and $b$ are complex numbers such that $\left| a\right |^2+\left| b\right| ^2 = 1$.\par
+An important consideration is that the state can only be measured once. Though it may seem possible to clone a qubit so that it may be measured in two possible ways, this is impossible. Because quantum states are subject only to unitary transformations, cloning is not allowed. The proof, established in 1982 by Wooters and Zurek, is an example of the linearity of unitary transformations.\cite{non}\par
+Assume that $U$ is a unitary transformation which is possible to clone so that in all quantum states $\ket{a}, U(\ket{a0}) = \ket{aa}$. Let $\ket{a}$ and $\ket{b}$ be orthogonal quantum states. And $U(\ket{a0}) = \ket{aa}$ and $U(\ket{b0}) = \ket{bb}$. Consider the case $\ket{c} = (1/\sqrt{2})(\ket{a} + \ket{b})$.
+\begin{align*}
+U(\ket{c0} &= \frac{1}{\sqrt{2}}(U(\ket{a0})+U(\ket{b0}))\\
+&= \frac{1}{\sqrt{2}}(\ket{aa}+\ket{bb})
+\end{align*}
+But since U was defined as a cloning transformation
+\begin{align*}
+U(\ket{c0}) &= \ket{cc}\\
+&= (\frac{1}{\sqrt{2}}(\ket{aa}+\ket{bb}))^2\\
+&= \frac{1}{2}(\ket{aa}+\ket{ab}+\ket{ba}+\ket{bb})
+\end{align*}
+which is not equal to $1/sqrt{2}(\ket{aa}+\ket{bb})$. This proves that there is no unitary operation to clone unknown quantum states. This \textit{no cloning} principle is only valid for unknown quantum states, as it is in fact possible to clone known quantum states. Though it is possible to obtain particles in an entangled state from an unknown state.
+
 \subsection{Notation}
 \subsection{Implementation}
 \section{Applications}
