@@ -1,6 +1,8 @@
 \contentsline {section}{\numberline {1}History}{4}
-\contentsline {section}{\numberline {2}Quantum Mechanics}{5}
+\contentsline {section}{\numberline {2}Quantum Concepts and Mechanics}{4}
 \contentsline {subsection}{\numberline {2.1}Double Slit Experiment}{5}
+\contentsline {subsection}{\numberline {2.2}Unitary Transformations}{8}
+\contentsline {subsection}{\numberline {2.3}}{9}
 \contentsline {section}{\numberline {3}Qubit}{9}
 \contentsline {subsection}{\numberline {3.1}Notation}{9}
 \contentsline {subsection}{\numberline {3.2}Implementation}{9}

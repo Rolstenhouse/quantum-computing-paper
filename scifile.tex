@@ -28,6 +28,8 @@
 \onehalfspacing
 \setlength{\parskip}{6pt}
 
+\usepackage{physics}
+
 \usepackage[margin=1in]{geometry}
 
 % The preamble here sets up a lot of new/revised commands and
@@ -97,8 +99,6 @@
 
 % Double-space the manuscript.
 
-\baselineskip24pt
-
 % Make the title.
 
 \begin{figure}
@@ -144,7 +144,7 @@ In 1985, David Deutsch published a paper proving that any physical process could
 Deutsch proved a basic algorithm which will be worked through later in the paper. \par
 Until 1994, the quantum computing field remained relatively unchanged until Shor was able to prove and set a method for a common NP-Hard factorization problem which could call on the benefits allowed through quantum computers, which would run in a time much shorter than what will be ever possible on classical computers.\cite{web} As a field, this momentus finding was able to push the field of research for quantum computing out of the view of the select who were performing research on the project to the public eye. Shor's algorithm will be explored later in the paper as well.\par
 
-\section{Quantum Mechanics}
+\section{Quantum Concepts and Mechanics}
 
 As a quick note, the material that will only be covered consists of a very small section of quantum mechanics encompassing finite dimenstional quantum mechanic where the vector spaces which represent the states of the dimension are finite in size.\par
 
@@ -172,7 +172,7 @@ Which means that \(B^2[5,0]\) is equivalent to \(\frac{1}{3}\). Which is the two
     \includegraphics[width=0.5\textwidth]{quantumslit}
     \caption{Corresponding quantum modulus graph to scenario}
 \end{wrapfigure}
-Pretend for a moment that the shooter has now been changed to a flashlight which can spread light into both of the windows with a similar setting. Once the light has passed through the windows, it again travels randomly to one of the three respective target locations. Represented in this graph is the modulus, where the modulus squared represents the probabibility of the specific event taking place. $\frac{1}{\sqrt{2}}^2$ is $\frac{1}{2}$ and more importantly $\left|\frac{\pm 1 \pm i }{\sqrt{6}}\right|^2 = \frac{1}{3}$\footnote{The complex number weights represented here are not to represent the actual quantum probability weights as this would require acquiring the distance of the slit spacing, the width of the individual slits. Rather the numbers given are to represent the point of quantum interference which will be highlighted later on}
+Pretend for a moment that the shooter has now been changed to a flashlight which can spread light into both of the windows with a similar setting. Once the light has passed through the windows, it again travels randomly to one of the three respective target locations. Represented in this graph is the modulus, where the modulus squared represents the probabibility of the specific event taking place. $\frac{1}{\sqrt{2}}^2$ is $\frac{1}{2}$ and more importantly $\left|\frac{\pm 1 \pm i }{\sqrt{6}}\right|^2 = \frac{1}{3}$  \footnote{The complex number weights represented here are not to represent the actual quantum probability weights as this would require acquiring the distance of the slit spacing, the width of the individual slits. Rather the numbers given are to represent the point of quantum interference which will be highlighted later on}
 \begin{figure}
 	\centering
 	\caption{Matrix representing the state after one time click}
@@ -193,7 +193,15 @@ The above matrices represented the state of the experiment using the moduli of t
 For the most part, the probability matrix for $P^2$ is the same as the probability matrix for $B^2$; however, there is one important distinction to be made. Which is that while $B^2[5,0] = \frac{1}{3}$ in the quantum simulation $P^2[5,0] = 0$. On a mathematical basis, this is trivially written as 
 $$\frac{1}{\sqrt{2}}(\frac{-1+i}{\sqrt{6}} + \frac{1}{\sqrt{2}}(\frac{1-i}{\sqrt{6}} = \frac{-1+i}{\sqrt{12}} + \frac{1-i}{\sqrt{12}} = 0$$
 This may seem troubling at first, but it must be remembered that photons are subject to particle interference and thus, on the shared target of the windows, the probability drops to 0. Furthermore, one may try to argue that if the experiment was carried out using only one photon, then the probability would again return to $\frac{1}{3}$, but this assumption would also be incorrect. A single photon is said to have a superposition in being in every possible position simultaneously. This is not mimicked in the classical world; however, due to the photon residing in every position at once it is prone to interference when the shared target is reached. As with most quantum phenomena, the particle is only determined to be in a certain state with a certain probability when a measurement is taken. In quantum mechanics, a measurement causes the superposition state to collapse to a certain pure state.\cite{intro}\par
-This phenomena is central to the success of quantum computing, as it allows for an exponential number of comutations or simulations to be run in parallel thus becoming incredibly more efficient.
+This phenomena is central to the success of quantum computing, as it allows for an exponential number of comutations or simulations to be run in parallel thus becoming exponentially more efficient.
+
+\subsection{Unitary Transformations}
+The complex numbers which represent the quantum position are commonly known as the amplitudes of the wave function. A core theory in regards to quantum systems is the idea of a unitary transformation. Provided that the entire amplitude function $\Psi$ can be identified through a vector, a unitary transforamtion is a multiplication of those vectors by a transformation matrix whose inverse equals its conjugate transpose. \cite{cis4930}
+The inherent properties of unitary transformations indicate that the total probability of the set always remains the same where the sum of the squares of the amplitudes is equivalent to 1 and that all changes are preserve the information across all states. Once a quantum state is observed in an isolated system, the quantum state is determined for all past and future times.\par
+Furthermore, unitary transformations are fully reversible. This property can be shown to be true because $\ket{\psi} \mapsto U\ket{psi}$ preserves the normal standardization across states it can then be set that $1 = \bra{\psi}\ket{\psi} = \bra{\psi}U^ \dagger U\ket{\psi} $ for all unit vectors $\ket{\psi}$. By linearity it follows that $U^\dagger U = I$ which indicates invertibility. 
+\footnote{The format used is known as bracket notation and will be understood in the following subsection. Where the $\bra{x}$ represents the ``bra'' section and the $\ket{x}$ represents the ``ket'' section and the entire representation can be shown by $\bra{x}\ket{x}$}
+
+\subsection{}
 
 \section{Qubit}
 \subsection{Notation}
@@ -408,6 +416,7 @@ Rieffel, Eleanor, and Wolfgang Polak. ``An Introduction to Quantum Computing for
 West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Rice University, 28 Apr. 2000. Web. 25 Oct. 2015. Provides a general purpose overview of the field of quantum computing. Includes a brief history of the field as well as current obstacles and research being done in the field.
 \bibitem{intro}
 Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. Presents an introduction to the mathematics behind quantum computing as well as an overview of the architecture necessary for quantum computing. This paper also presents Deutsch's Algorithm which will be spoken about and overviewed.
+\bibitem{cis4930}
 \end{thebibliography}
 
 \clearpage
