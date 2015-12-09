@@ -150,21 +150,50 @@ As a quick note, the material that will only be covered consists of a very small
 
 \subsection{Double Slit Experiment}
 Young's double slit experiment is one of the most foundational experiments related to the field of quantum mechanics and demonstrates the wave-particle duality of photons when conducted. Before approaching the quantum model, it is interesting to explore a classical model and the probabilities associated with it before moving on.\par
-Pretend for a moment, that there is an experiment where there is a sharpshooter who is guaranteed to always shoot through one or the other open windows, with equal probability. Once the bullet passes through the window, it has an equal probability of hitting three targets. There is one target which is shared between both open windows. The probability matrix associated with this scene is shown. 
 \begin{wrapfigure}{l}{0.5\textwidth}
     \centering
     \includegraphics[width=0.5\textwidth]{classicslit}
+    \caption{Corresponding graph to scenario}
 \end{wrapfigure}
-\begin{wrapfigure}{r}{0.5\textwidth}
-    \centering
-    \includegraphics[width=0.5\textwidth]{classicB2}
-\end{wrapfigure}
+Pretend for a moment, that there is an experiment where there is a sharpshooter who is guaranteed to always shoot through one or the other open windows, with equal probability. Once the bullet passes through the window, it has an equal probability of hitting three targets. There is one target which is shared between both open windows.\par
+The probability matrix associated with this scene is shown. FIGURE 2 OF ORIGINAL MATRIX
 \par
-By representing the data points as a matrix, it is possible to identify the probability where the bullet might be found on the next time click by simply using matrix multiplication.\cite{intro}. The matrix shown above, \textit{B}, represents the state of the system after one time click. By multiplying the matrix by itself you are able to represent the state after two time clicks. REFERENCE FIGURE 3.\par
+By representing the data points as a matrix, it is possible to identify the probability where the bullet might be found on the next time click by simply using matrix multiplication.\cite{intro}. The matrix shown above, \textit{B}, represents the state of the system after one time click. By multiplying the matrix by itself you are able to represent the state after two time clicks. 
+\begin{figure}
+    \centering
+    \caption{Matrix representing the progression of two time clicks}
+    \includegraphics[width=0.5\textwidth]{classicB2}
+\end{figure}\par
 The takeaway from this example is to show that after two time clicks the bullets will be in the state \[B^2X = [0,0,0,\frac{1}{6},\frac{1}{6},\frac{1}{3},\frac{1}{6},\frac{1}{6}]^T\]
 Which means that \(B^2[5,0]\) is equivalent to \(\frac{1}{3}\). Which is the two states \(\frac{1}{6}+\frac{1}{6}\).\par
 
-Pretend for a moment that the shooter has now been changed to a floodlight which can spread light into both of the windows with a similar setting.
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{quantumslit}
+    \caption{Corresponding quantum modulus graph to scenario}
+\end{wrapfigure}
+Pretend for a moment that the shooter has now been changed to a flashlight which can spread light into both of the windows with a similar setting. Once the light has passed through the windows, it again travels randomly to one of the three respective target locations. Represented in this graph is the modulus, where the modulus squared represents the probabibility of the specific event taking place. $\frac{1}{\sqrt{2}}^2$ is $\frac{1}{2}$ and more importantly $\left|\frac{\pm 1 \pm i }{\sqrt{6}}\right|^2 = \frac{1}{3}$\footnote{The complex number weights represented here are not to represent the actual quantum probability weights as this would require acquiring the distance of the slit spacing, the width of the individual slits. Rather the numbers given are to represent the point of quantum interference which will be highlighted later on}
+\begin{figure}
+	\centering
+	\caption{Matrix representing the state after one time click}
+	\includegraphics[width=.5\textwidth]{quantumP}
+\end{figure}
+\begin{figure}
+	\centering
+	\caption{Matrix representing the state after two time clicks}
+	\includegraphics[width=.5\textwidth]{quantumP2}
+\end{figure}
+The above matrices represented the state of the experiment using the moduli of the components. In order to interpret this information in reference to the classical scenario it is helpful to consider the probability of the individual locations. This can be shown by squaring the individual components of the $P^2$ matrix.
+\begin{figure}
+	\centering
+	\caption{Probability matrix of the modulus squared after two time clicks}
+	\includegraphics[width=.5\textwidth]{quantumProbability}
+\end{figure}
+\par
+For the most part, the probability matrix for $P^2$ is the same as the probability matrix for $B^2$; however, there is one important distinction to be made. Which is that while $B^2[5,0] = \frac{1}{3}$ in the quantum simulation $P^2[5,0] = 0$. On a mathematical basis, this is trivially written as 
+$$\frac{1}{\sqrt{2}}(\frac{-1+i}{\sqrt{6}} + \frac{1}{\sqrt{2}}(\frac{1-i}{\sqrt{6}} = \frac{-1+i}{\sqrt{12}} + \frac{1-i}{\sqrt{12}} = 0$$
+This may seem troubling at first, but it must be remembered that photons are subject to particle interference and thus, on the shared target of the windows, the probability drops to 0. Furthermore, one may try to argue that if the experiment was carried out using only one photon, then the probability would again return to $\frac{1}{3}$, but this assumption would also be incorrect. A single photon is said to have a superposition in being in every possible position simultaneously. This is not mimicked in the classical world; however, due to the photon residing in every position at once it is prone to interference when the shared target is reached. As with most quantum phenomena, the particle is only determined to be in a certain state with a certain probability when a measurement is taken. In quantum mechanics, a measurement causes the superposition state to collapse to a certain pure state.\cite{intro}\par
+This phenomena is central to the success of quantum computing, as it allows for an exponential number of comutations or simulations to be run in parallel thus becoming incredibly more efficient.
 
 \section{Qubit}
 \subsection{Notation}
@@ -368,22 +397,6 @@ mentioned in this document).
 
 \bibliographystyle{Science}
 
-
-
-% Following is a new environment, {scilastnote}, that's defined in the
-% preamble and that allows authors to add a reference at the end of the
-% list that's not signaled in the text; such references are used in
-% *Science* for acknowledgments of funding, help, etc.
-
-\begin{scilastnote}
-\item We've included in the template file \texttt{scifile.tex} a new
-environment, \texttt{\{scilastnote\}}, that generates a numbered final
-citation without a corresponding signal in the text.  This environment
-can be used to generate a final numbered reference containing
-acknowledgments, sources of funding, and the like, per {\it Science\/}
-style.
-\end{scilastnote}
-
 \newpage
 
 \begin{thebibliography}{1}
@@ -398,15 +411,6 @@ Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of
 \end{thebibliography}
 
 \clearpage
-
-\noindent {\bf Fig. 1.} Please do not use figure environments to set
-up your figures in the final (post-peer-review) draft, do not include graphics in your
-source code, and do not cite figures in the text using \LaTeX\
-\verb+\ref+ commands.  Instead, simply refer to the figure numbers in
-the text per {\it Science\/} style, and include the list of captions at
-the end of the document, coded as ordinary paragraphs as shown in the
-\texttt{scifile.tex} template file.  Your actual figure files should
-be submitted separately.
 
 \end{document}
 

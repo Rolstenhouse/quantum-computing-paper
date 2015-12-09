@@ -1,14 +1,14 @@
 \contentsline {section}{\numberline {1}History}{4}
 \contentsline {section}{\numberline {2}Quantum Mechanics}{5}
 \contentsline {subsection}{\numberline {2.1}Double Slit Experiment}{5}
-\contentsline {section}{\numberline {3}Qubit}{7}
-\contentsline {subsection}{\numberline {3.1}Notation}{7}
-\contentsline {subsection}{\numberline {3.2}Implementation}{7}
-\contentsline {section}{\numberline {4}Applications}{7}
-\contentsline {subsection}{\numberline {4.1}Implementation}{7}
-\contentsline {section}{\numberline {5}Algorithms}{7}
-\contentsline {subsection}{\numberline {5.1}Shor's Algorithm}{7}
-\contentsline {subsection}{\numberline {5.2}Grover's Algorithm}{7}
-\contentsline {subsection}{\numberline {5.3}Deutsch Algorithm}{7}
-\contentsline {section}{\numberline {6}Error Correction and Measurement}{7}
-\contentsline {section}{\numberline {7}Future of Quantum Computing}{7}
+\contentsline {section}{\numberline {3}Qubit}{9}
+\contentsline {subsection}{\numberline {3.1}Notation}{9}
+\contentsline {subsection}{\numberline {3.2}Implementation}{9}
+\contentsline {section}{\numberline {4}Applications}{9}
+\contentsline {subsection}{\numberline {4.1}Implementation}{9}
+\contentsline {section}{\numberline {5}Algorithms}{9}
+\contentsline {subsection}{\numberline {5.1}Shor's Algorithm}{9}
+\contentsline {subsection}{\numberline {5.2}Grover's Algorithm}{9}
+\contentsline {subsection}{\numberline {5.3}Deutsch Algorithm}{9}
+\contentsline {section}{\numberline {6}Error Correction and Measurement}{9}
+\contentsline {section}{\numberline {7}Future of Quantum Computing}{9}
