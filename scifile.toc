@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {4.3}Algorithms}{13}
 \contentsline {subsubsection}{\numberline {4.3.1}Shor's Algorithm}{14}
 \contentsline {subsubsection}{\numberline {4.3.2}Grover's Algorithm}{14}
-\contentsline {subsubsection}{\numberline {4.3.3}Deutsch Algorithm}{14}
-\contentsline {section}{\numberline {5}Error Correction and Measurement}{14}
-\contentsline {section}{\numberline {6}Future of Quantum Computing}{14}
+\contentsline {subsubsection}{\numberline {4.3.3}Deutsch Algorithm}{15}
+\contentsline {section}{\numberline {5}Error Correction and Measurement}{15}
+\contentsline {section}{\numberline {6}Future of Quantum Computing}{15}

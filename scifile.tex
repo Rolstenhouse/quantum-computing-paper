@@ -387,16 +387,18 @@ Shor's algorithm is of particular importance to certain government agencies, bec
 \begin{enumerate}
 \item Pick a random $x<N$
 \item Compute $f = $gcd$(x, n)$; if $f\neq 1$, return $f$ (As it is a factor)
-\item Find the least $r$ such that $x^r\equiv 1 ($mod$\:N)$
+\item Find the least $r$ such that $x^r\equiv 1 ($mod$\:N)$ (Where r is the repetition period)
 \item If either gcd$(x^{r/2}-1, N)$ or gcd$(x^{r/2}+1, N)$ is not 1, return it, as a factor
 \item Else, repeat from step 1
 \end{enumerate}
+The number of repetitions that this loop requires is run in polynomial time if every step can be run in polynomial time. Upon analysing the steps, step 3 where $x^r$ must be computed is necessary. In order to solve this, Shor used an application of the fourier transform which relies on quantum parallelism. The mathematics behind this approach falls beyond the scope of this paper
+\footnote{The quantum fourier transform is linear transformation on quantum bits, and is the quantum analogue of the discrete Fourier transform. The quantum fourier transform is in fact a unitary operation as required by operations done on a quantum machine}; however, it is assumed that it is a valid approach. The algorithm is as follows. The machine computes all of $x^r$ for all $r<N^2$ simultaneously. The series, $x^r(($mod $N))$ repeats in cycles if $x4$ is relatively prime to $N$. This cycle is stored in $N^2$ distinct states which corresponds to the $N^2$ different values. The quantum fourier transform is now appplied to the superposition of the resulting states and the algorithm ecnodes the frequency spectra for finding different values of $x^r$ mode $N$. The amplitude peaks found will correspond to multiples of the basic repetition period of $x^r$. By measuring the state, we will attain with a high probability the value of the repetitive state needed. This process runs in polynomial time. \cite{cis4930}
 \subsubsection{Grover's Algorithm}
+Grover's algorithm is of particular importance to any large technology-based company which has a data stored in a database where some liens of data need to be found by searching through the article. This process of searching is also incredibly relevant in sorting algorithms, as most sorting algorithms rely on finding either a smaller or larger number for the comparison based sorting algorithm to functino properly. While this is valuable, most databases are already sorted in regards to a particular context, so Grover's search algorithm operating within the scope of a heuristic algorithm\footnote{a heuristic algorithm simply means that the algorithm has an idea before computation of what the data might look like and so can make an assumption which should perform favorably.} has shown that a quadratic speed-up is possible when compared to a classical heuristic.\cite{non}
 \subsubsection{Deutsch Algorithm}
 MIGHT BE LEFT OUT DUE TO IRRELEVANCE AND THE FACT THAT IT IS RATHER TRICKY TO UNDERSTAND
 \section{Error Correction and Measurement}
 \section{Future of Quantum Computing}
-
 
 \begin{figure}
 \includegraphics[scale=.5]{dilbert}

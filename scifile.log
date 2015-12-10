@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2015 05:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2015 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1601,19 +1601,19 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 367--368
  [][] 
  []
 
-[12 <./images/alice.png>] [13]
-<images/dilbert.jpg, id=85, 1003.75pt x 312.16624pt>
+[12 <./images/alice.png>] [13] [14]
+<images/dilbert.jpg, id=88, 1003.75pt x 312.16624pt>
 File: images/dilbert.jpg Graphic file (type jpg)
  <use images/dilbert.jpg>
-Package pdftex.def Info: images/dilbert.jpg used on input line 402.
+Package pdftex.def Info: images/dilbert.jpg used on input line 404.
 (pdftex.def)             Requested size: 501.87378pt x 156.08273pt.
 
-Overfull \hbox (32.11876pt too wide) in paragraph at lines 402--404
+Overfull \hbox (32.11876pt too wide) in paragraph at lines 404--406
  [][] 
  []
 
 No file scifile.bbl.
-[14] [15 <./images/dilbert.jpg>] (./scifile.aux) ) 
+[15 <./images/dilbert.jpg>] [16] (./scifile.aux) ) 
 Here is how much of TeX's memory you used:
  9784 strings out of 493089
  173232 string characters out of 6134842
@@ -1637,10 +1637,10 @@ onts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on scifile.pdf (18 pages, 665685 bytes).
+Output written on scifile.pdf (19 pages, 668096 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
