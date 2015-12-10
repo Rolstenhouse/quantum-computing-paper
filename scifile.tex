@@ -417,13 +417,10 @@ An interesting observation is that while classical algorithms will get a more ac
 \section{Error Correction}
 \textbf{Decoherence}, or the distortion of the quantum state due to interactions with the outside environment, is the greatet difficulty that needs to be overcome in order to effectively scale them for large scale use.\cite{non} Though attempts were made to isolate the outside environment by lowering the temperature to near absolute zero, the breakthrough in solving this problem ultimately arose through the invention of quantum error correction handling techniques. This allowed for logic within the computer to detect when an error had been made and to correctly return it to an error free state. Although error correction is computationally intensive, it remains a valuable tool as long as the error probabiliy per gate resides below a certain acccuracy threshold
 \par
-The process of quantum error correction is a dissipative process and so produces waste heat that must escape from the device into the environment. As the errors occur, they are stored in a set of ancilla bits\footnote{\textbf{Ancilla bits} are extra bits which have a secondary role in a logic circuit}. To reuse the ancilla bits, they must be flushed which releases entropy into the environment in the form of heat.\cite{pro} This error correction technology will porve a challenge for computer engineers in the future as they try and keep the temperature of the computer as cool as possible.\par
+The process of quantum error correction is a dissipative process and so produces waste heat that must escape from the device into the environment. As the errors occur, they are stored in a set of ancilla bits\footnote{\textbf{Ancilla bits} are extra bits which have a secondary role in a logic circuit}. To reuse the ancilla bits, they must be flushed which releases entropy into the environment in the form of heat.\cite{pro} This error correction technology will prove a challenge for computer engineers in the future as they try and keep the temperature of the computer as cool as possible.\par
 \section{Future of Quantum Computing}
-
-\begin{figure}
-\includegraphics[scale=.5]{dilbert}
-\centering
-\end{figure}
+Unfortunately, research in the field of quantum computing has been moving at an incredibly slow pace mostly due to the difficulty in avoiding errors in the process or trying to correct them in the process. Quantum computing will continue to influence the field of experimental physics by providing new kinds of measurements and experiments. Before quantum computing ever goes mainstream, it will have a place in high precision physics laboratories where the results of tests held will lead to greater and more accurate error correction schema.\cite{pro}\par
+Quantum computing will see a stronger and greater push as we approach the classical computation limit of Moore's law. The current limits of quantum computing, predominantly arising from error correction and errors with fault-tolerant gates, once mitigated will allow for a wide development in high performance computing and will open up new fields of research for years to come. The impact which industrial and commercial quantum computing will have is immeasurable.
 
 % Your references go at the end of the main text, and before the
 % figures.  For this document we've used BibTeX, the .bib file
@@ -440,13 +437,13 @@ The process of quantum error correction is a dissipative process and so produces
 
 \begin{thebibliography}{1}
 \bibitem{pro} 
-Preskill, John. ``Quantum Computing: Pro and Con.'' Diss. California Instute of Technology, 1996. Print. Covers the applications in which it will be used as well as the technical difficulties that are encountered with creating a quantum computer. Also encompasses the future of quantum computing
+Preskill, John. ``Quantum Computing: Pro and Con.'' Diss. California Instute of Technology, 1996. Print. 
 \bibitem{non}
-Rieffel, Eleanor, and Wolfgang Polak. ``An Introduction to Quantum Computing for Non-Physicists.'' Diss. FX Palo Alto Laboratory, 2000. Print. Covers some algorithm efficiencies for conventional vs quantum computing and also covers basic applications of quantum computing in the field including cryptography.
+Rieffel, Eleanor, and Wolfgang Polak. ``An Introduction to Quantum Computing for Non-Physicists.'' Diss. FX Palo Alto Laboratory, 2000. Print. 
 \bibitem{web}
-West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Rice University, 28 Apr. 2000. Web. 25 Oct. 2015. Provides a general purpose overview of the field of quantum computing. Includes a brief history of the field as well as current obstacles and research being done in the field.
+West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Rice University, 28 Apr. 2000. Web. 25 Oct. 2015. 
 \bibitem{intro}
-Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. Presents an introduction to the mathematics behind quantum computing as well as an overview of the architecture necessary for quantum computing. This paper also presents Deutsch's Algorithm which will be spoken about and overviewed.
+Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. 
 \bibitem{cis4930}
 CIS4930 Textbooks
 \bibitem{storage}
