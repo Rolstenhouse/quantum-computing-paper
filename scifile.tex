@@ -24,6 +24,7 @@
 \graphicspath{ {images/} }
 \usepackage{wrapfig}
 \usepackage{amsmath}
+\usepackage{blkarray}
 
 \usepackage{setspace}
 \onehalfspacing
@@ -227,16 +228,183 @@ U(\ket{c0}) &= \ket{cc}\\
 &= (\frac{1}{\sqrt{2}}(\ket{aa}+\ket{bb}))^2\\
 &= \frac{1}{2}(\ket{aa}+\ket{ab}+\ket{ba}+\ket{bb})
 \end{align*}
-which is not equal to $1/sqrt{2}(\ket{aa}+\ket{bb})$. This proves that there is no unitary operation to clone unknown quantum states. This \textit{no cloning} principle is only valid for unknown quantum states, as it is in fact possible to clone known quantum states. Though it is possible to obtain particles in an entangled state from an unknown state.
+which is not equal to $(1/\sqrt{2})(\ket{aa}+\ket{bb})$. This proves that there is no unitary operation to clone unknown quantum states. This \textit{no cloning} principle is only valid for unknown quantum states, as it is in fact possible to clone known quantum states. Though it is possible to obtain particles in an entangled state from an unknown state.
 
 \subsection{Notation}
+The notation for qubits which will be used follows the format as a two by one matrix with complex numbers.
+$$ 
+\begin{blockarray}{cc}
+\begin{block}{c[c]}
+0 & c_0 \\
+1 & c_1 \\
+\end{block}
+\end{blockarray}
+$$
+
+where $\left| c_0\right |^2 + \left| c_1\right |^2 = 1$. In order to get a better idea of the qubit take the vector
+$$ V = 
+\begin{blockarray}{c}
+\begin{block}{[c]}
+5 + 3i \\
+6i \\
+\end{block}
+\end{blockarray}
+$$
+and find the magnitude so that it may be normalized
+$$ \left| V \right| = \sqrt{\langle V, V \rangle} = \sqrt{
+  [5-3i, -6i]
+\begin{blockarray}{c}
+\begin{block}{[c]}
+5 + 3i \\
+6i \\
+\end{block}
+\end{blockarray}
+} = \sqrt{34+36} = \sqrt{70}
+$$
+therefore
+$$ \frac{V}{\sqrt{70}} = 
+\begin{blockarray}{c}
+\begin{block}{[c]}
+\frac{5 + 3i}{\sqrt{70}} \\
+\frac{6i}{\sqrt{70}} \\
+\end{block}
+\end{blockarray}
+$$
+Now that the vector has been normalized, we can obtain the probabilities of each individual scenario and the probability of being in state $\ket{0}$ is $34/70$ while probability of state $\ket{1}$. TODO CHANGE ALL THE NUMBERS IN HERE TO BE DISTINCT FROM THE ONES BEFORE\par
+For one qubit, it is easy to normalize and find the values, but in order to extract any real value from quantum computing it would serve well to consider a state with several qubits in progression. A typical byte of computer information contains 8 bits and might look like the following $$ 11110010 $$ which in unsigned binary would represent the number $242$. Using a classical bit, the number of possible results is $2^8 = 256$.\par
+As a set of qubits, we can represent this number by a sum of the tensor products. 
+$$ \ket{1}\otimes\ket{1}\otimes\ket{1}\otimes\ket{1}\otimes\ket{0}\otimes\ket{0}\otimes\ket{1}\otimes\ket{0}\otimes $$
+To represent the above values of the quantum bits in a matrix 
+$$ 
+\begin{blockarray}{cc}
+\begin{block}{c[c]}
+00000000 & c_0 \\
+00000001 & c_1 \\
+\vdots & \vdots \\
+11110001 & c_{241} \\
+11110010 & c_{242} \\ 
+11110011 & c_{243} \\ 
+\vdots & \vdots \\
+11111110 & c_{254} \\
+11111111 & c_{255} \\
+\end{block}
+\end{blockarray}
+$$
+where each of the 256 qubytes holds 8 qubits. A state of 8 qubits is given by writing 256 complex numbers. In order to store the $2^{64}$ qubits you would need to have a memory storage size equivalent to $\approx 2.3$ exabytes. This is an amount of data which vastly outweighs the amount of digital data currently handled by any individual company. \cite{storage}
 \subsection{Implementation}
+FILL THIS OUT IF YOU NEED MORE INFORMATION ON IMPLEMENTATION
+\subsection{Quantum Gates}
+In order to use classical bits to do any valuable solving, logic gates need to be implemented in order to change output based on the state of the inputs. For classic bits, there are common AND, OR, and NOT operators, for quantum bits there are equivalent gates known a quantum gates which because of linearity the transformations can be exemplified by their effect on the basis vectors. These transformations can easily be proven to be unitary.
+$$
+Identity\:Matrix: 
+\begin{blockarray}{cc}
+\begin{block}{(cc)}
+1 & 0\\
+0 & 1\\
+\end{block}
+\end{blockarray}
+ \:causes\:
+\begin{blockarray}{c}
+\begin{block}{[c]}
+0\\
+1\\
+\end{block}
+\end{blockarray}
+\rightarrow
+\begin{blockarray}{c}
+\begin{block}{[c]}
+0\\
+1\\
+\end{block}
+\end{blockarray}
+\\
+$$
+
+$$
+Negation\:Matrix: 
+\begin{blockarray}{cc}
+\begin{block}{(cc)}
+0 & 1\\
+1 & 0\\
+\end{block}
+\end{blockarray}
+ \:causes\:
+\begin{blockarray}{c}
+\begin{block}{[c]}
+0\\
+1\\
+\end{block}
+\end{blockarray}
+\rightarrow
+\begin{blockarray}{c}
+\begin{block}{[c]}
+1\\
+0\\
+\end{block}
+\end{blockarray}
+$$
+
+$$
+Phase\:Shift\:Matrix: 
+\begin{blockarray}{cc}
+\begin{block}{(cc)}
+1 & 0\\
+0 & -1\\
+\end{block}
+\end{blockarray}
+ \:causes\:
+\begin{blockarray}{c}
+\begin{block}{[c]}
+0\\
+1\\
+\end{block}
+\end{blockarray}
+\rightarrow
+\begin{blockarray}{c}
+\begin{block}{[c]}
+0\\
+-1\\
+\end{block}
+\end{blockarray}
+$$
+These matrix shifts are the building blocks of most quantum gates. A basic NOT gate is instrumental to the success of any algorithm which will be used. The controlled-NOT gate $C_{not}$ operates on two qubits by changing the second bit if the first bit is one and not changing it if the first bit is 0. Though there are various forms that the $C_{not}$ gate could be written, one is displayed below.
+$$
+C_{not}\:Matrix: 
+\begin{blockarray}{cccc}
+\begin{block}{(cccc)}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0\\
+\end{block}
+\end{blockarray}
+ \:causes\:
+\begin{blockarray}{cc}
+\begin{block}{[cc]}
+0 & 0\\
+0 & 1\\
+1 & 0\\
+1 & 1\\
+\end{block}
+\end{blockarray}
+\rightarrow
+\begin{blockarray}{cc}
+\begin{block}{[cc]}
+0 & 0\\
+0 & 1\\
+1 & 1\\
+1 & 0\\
+\end{block}
+\end{blockarray}
+$$
+The transformation $C_{not}$ is unitary since $C^*_{not} = C_{not}$ and $C_{not}C_{not} = I$ where $I$ is the identity matrix. the $C_{not}$ gate is not able to be decomposed into two single bit transformations.\cite{non}\par
 \section{Applications}
-\subsection{Implementation}
-\section{Algorithms}
-\subsection{Shor's Algorithm}
-\subsection{Grover's Algorithm}
-\subsection{Deutsch Algorithm}
+\subsection{Encryption}
+\subsection{Algorithms}
+\subsubsection{Shor's Algorithm}
+\subsubsection{Grover's Algorithm}
+\subsubsection{Deutsch Algorithm}
+MIGHT BE LEFT OUT DUE TO IRRELEVANCE AND THE FACT THAT IT IS RATHER TRICKY TO UNDERSTAND
 \section{Error Correction and Measurement}
 \section{Future of Quantum Computing}
 
@@ -270,6 +438,8 @@ West, Jacob. ``The Quantum Computer.'' An Introduction to Quantum Computing. Ric
 Yanofsky, Noson S. ``An Introduction to Quantum Computing.'' Diss. Department of Computer and Information Science, Brooklyn College, CUNY, 2007. Print. Presents an introduction to the mathematics behind quantum computing as well as an overview of the architecture necessary for quantum computing. This paper also presents Deutsch's Algorithm which will be spoken about and overviewed.
 \bibitem{cis4930}
 CIS4930 Textbooks
+\bibitem{storage}
+http://www.comparebusinessproducts.com/fyi/10-largest-databases-in-the-world
 \end{thebibliography}
 
 \clearpage
