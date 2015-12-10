@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2015 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2015 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1532,64 +1532,66 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
- [1] <images/classicslit.png, id=19, 328.22626pt x 391.4625pt>
+ <images/classicslit.png, id=15, 328.22626pt x 391.4625pt>
 File: images/classicslit.png Graphic file (type png)
 
 <use images/classicslit.png>
-Package pdftex.def Info: images/classicslit.png used on input line 104.
+Package pdftex.def Info: images/classicslit.png used on input line 103.
 (pdftex.def)             Requested size: 234.8775pt x 280.13248pt.
+ [1]
+Underfull \hbox (badness 1189) in paragraph at lines 106--106
+[]\OT1/ptm/m/n/12 Young's dou-ble slit ex-per-i-ment is one
+ []
 
 <images/classicB.png, id=21, 237.88875pt x 222.8325pt>
 File: images/classicB.png Graphic file (type png)
 
 <use images/classicB.png>
-Package pdftex.def Info: images/classicB.png used on input line 112.
+Package pdftex.def Info: images/classicB.png used on input line 113.
 (pdftex.def)             Requested size: 237.88815pt x 222.83195pt.
 
 <images/classicB2.png, id=22, 361.35pt x 215.80624pt>
 File: images/classicB2.png Graphic file (type png)
 
 <use images/classicB2.png>
-Package pdftex.def Info: images/classicB2.png used on input line 119.
-(pdftex.def)             Requested size: 234.8775pt x 140.27568pt.
- [2 <./images/classicB.png> <./images/classicslit.png>] <images/quantumslit.png
-, id=28, 393.47pt x 420.57124pt>
+Package pdftex.def Info: images/classicB2.png used on input line 120.
+(pdftex.def)             Requested size: 361.34912pt x 215.80571pt.
+ [2 <./images/classicslit.png> <./images/classicB.png>] [3 <./images/classicB2.
+png>]
+<images/quantumslit.png, id=36, 393.47pt x 420.57124pt>
 File: images/quantumslit.png Graphic file (type png)
 
 <use images/quantumslit.png>
-Package pdftex.def Info: images/quantumslit.png used on input line 126.
+Package pdftex.def Info: images/quantumslit.png used on input line 127.
 (pdftex.def)             Requested size: 234.8775pt x 251.0548pt.
 
-Underfull \hbox (badness 2644) in paragraph at lines 127--127
-[]\OT1/ptm/m/n/12 Figure 4: Cor-re-spond-ing quan-tum mod-u-lus
- []
-
-<images/quantumP.png, id=29, 354.32375pt x 253.94875pt>
+<images/quantumP.png, id=37, 354.32375pt x 253.94875pt>
 File: images/quantumP.png Graphic file (type png)
 
 <use images/quantumP.png>
-Package pdftex.def Info: images/quantumP.png used on input line 133.
+Package pdftex.def Info: images/quantumP.png used on input line 135.
 (pdftex.def)             Requested size: 234.8775pt x 168.34293pt.
- <images/quantumP2.png, id=30, 385.44pt x 228.855pt>
-File: images/quantumP2.png Graphic file (type png)
+ <images/QuantumP2.png, id=38, 385.44pt x 228.855pt>
+File: images/QuantumP2.png Graphic file (type png)
 
-<use images/quantumP2.png>
-Package pdftex.def Info: images/quantumP2.png used on input line 138.
+<use images/QuantumP2.png>
+Package pdftex.def Info: images/QuantumP2.png used on input line 140.
 (pdftex.def)             Requested size: 234.8775pt x 139.45816pt.
 
-<images/quantumProbability.png, id=31, 323.2075pt x 209.78375pt>
+<images/quantumProbability.png, id=39, 323.2075pt x 209.78375pt>
 File: images/quantumProbability.png Graphic file (type png)
 
 <use images/quantumProbability.png>
-Package pdftex.def Info: images/quantumProbability.png used on input line 144.
+Package pdftex.def Info: images/quantumProbability.png used on input line 146.
 (pdftex.def)             Requested size: 234.8775pt x 152.45262pt.
- [3 <./images/classicB2.png>] [4 <./images/quantumP.png> <./images/quantumP2.pn
-g> <./images/quantumProbability.png>]
-Underfull \hbox (badness 1226) in paragraph at lines 153--154
-\OT1/ptm/m/n/12 The com-plex num-bers which rep-re-sent the
- []
 
-[5 <./images/quantumslit.png>] [6] [7] [8] [9] [10] [11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4
+
+ <./images/quantumslit.png> <./images/quantumP.png>] [5 <./images/QuantumP2.png
+> <./images/quantumProbability.png>] [6] [7] [8] [9] [10] [11]
 <images/alice.png, id=77, 482.80376pt x 271.0125pt>
 File: images/alice.png Graphic file (type png)
  <use images/alice.png>
@@ -1600,54 +1602,66 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 367--368
  [][] 
  []
 
-[12 <./images/alice.png>] [13]
-<images/amplitude.png, id=85, 312.16624pt x 68.255pt>
+[12 <./images/alice.png>] [13] [14]
+<images/amplitude.png, id=89, 312.16624pt x 68.255pt>
 File: images/amplitude.png Graphic file (type png)
 
 <use images/amplitude.png>
-Package pdftex.def Info: images/amplitude.png used on input line 405.
+Package pdftex.def Info: images/amplitude.png used on input line 403.
 (pdftex.def)             Requested size: 234.8775pt x 51.3567pt.
- [14]
-<images/amplitude2.png, id=89, 325.215pt x 98.3675pt>
+
+<images/amplitude2.png, id=90, 325.215pt x 98.3675pt>
 File: images/amplitude2.png Graphic file (type png)
 
 <use images/amplitude2.png>
-Package pdftex.def Info: images/amplitude2.png used on input line 410.
+Package pdftex.def Info: images/amplitude2.png used on input line 408.
 (pdftex.def)             Requested size: 234.8775pt x 71.04517pt.
  [15 <./images/amplitude.png> <./images/amplitude2.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 420.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 418.
+ [16]
 No file scifile.bbl.
-[16] [17] (./scifile.aux) ) 
+[17]
+Underfull \hbox (badness 5817) in paragraph at lines 448--449
+[]\OT1/ptm/m/n/12 Yanofsky, No-son S. ``An In-tro-duc-tion to Quan-tum Com-put-
+ing.'' Diss. De-part-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+\OT1/ptm/m/n/12 of Com-puter and In-for-ma-tion Sci-ence, Brook-lyn Col-lege, C
+UNY, 2007. Print.
+ []
+
+[18] (./scifile.aux) ) 
 Here is how much of TeX's memory you used:
  9792 strings out of 493089
  173394 string characters out of 6134842
- 227851 words of memory out of 5000000
+ 229851 words of memory out of 5000000
  13170 multiletter control sequences out of 15000+600000
  27942 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,9n,39p,10383b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
-base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on scifile.pdf (20 pages, 621001 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on scifile.pdf (21 pages, 622288 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

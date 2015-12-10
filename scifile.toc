@@ -1,19 +1,17 @@
 \contentsline {section}{\numberline {1}History}{1}
 \contentsline {section}{\numberline {2}Quantum Concepts and Theories}{1}
-\contentsline {subsection}{\numberline {2.1}Double Slit Experiment}{2}
-\contentsline {subsection}{\numberline {2.2}Unitary Transformations}{5}
+\contentsline {subsection}{\numberline {2.1}Double Slit Experiment}{1}
+\contentsline {subsection}{\numberline {2.2}Unitary Transformations}{6}
 \contentsline {subsection}{\numberline {2.3}Bracket Notation}{6}
 \contentsline {subsection}{\numberline {2.4}Observations}{7}
 \contentsline {section}{\numberline {3}Qubit}{8}
 \contentsline {subsection}{\numberline {3.1}Notation}{9}
-\contentsline {subsection}{\numberline {3.2}Implementation}{10}
-\contentsline {subsection}{\numberline {3.3}Quantum Gates}{10}
+\contentsline {subsection}{\numberline {3.2}Quantum Gates}{11}
 \contentsline {section}{\numberline {4}Applications}{11}
-\contentsline {subsection}{\numberline {4.1}Current Implementation}{11}
+\contentsline {subsection}{\numberline {4.1}Current Implementation}{12}
 \contentsline {subsection}{\numberline {4.2}Encryption}{12}
-\contentsline {subsubsection}{\numberline {4.2.1}Cracking public key}{13}
 \contentsline {subsection}{\numberline {4.3}Algorithms}{13}
-\contentsline {subsubsection}{\numberline {4.3.1}Shor's Algorithm}{13}
+\contentsline {subsubsection}{\numberline {4.3.1}Shor's Algorithm}{14}
 \contentsline {subsubsection}{\numberline {4.3.2}Grover's Algorithm}{14}
-\contentsline {section}{\numberline {5}Error Correction}{15}
+\contentsline {section}{\numberline {5}Error Correction}{16}
 \contentsline {section}{\numberline {6}Future of Quantum Computing}{16}
