@@ -2,16 +2,7 @@
 
 \documentclass[12pt]{article}
 
-% Users of the {thebibliography} environment or BibTeX should use the
-% scicite.sty package, downloadable from *Science* at
-% www.sciencemag.org/about/authors/prep/TeX_help/ .
-% This package should properly format in-text
-% reference calls and reference-list numbers.
-
 \usepackage{scicite}
-
-% Use times if you have the font installed; otherwise, comment out the
-% following line.
 
 \usepackage{times}
 
@@ -33,52 +24,18 @@
 \usepackage{physics}
 
 \usepackage[margin=1in]{geometry}
+\usepackage{sectsty}
 
-% The preamble here sets up a lot of new/revised commands and
-% environments.  It's annoying, but please do *not* try to strip these
-% out into a separate .sty file (which could lead to the loss of some
-% information when we convert the file to other formats).  Instead, keep
-% them in the preamble of your main LaTeX source file.
+\sectionfont{\fontsize{14}{17}\selectfont}
+\subsectionfont{\fontsize{12}{15}\selectfont}
 
-
-% The following parameters seem to provide a reasonable page setup.
-
-
-
-%The next command sets up an environment for the abstract to your paper.
+\pagenumbering{gobble}
 
 \newenvironment{sciabstract}{%
 \begin{quote} \bf}
 {\end{quote}}
 
-
-% If your reference list includes text notes as well as references,
-% include the following line; otherwise, comment it out.
-
-\renewcommand\refname{References and Notes}
-
-\newcounter{lastnote}
-\newenvironment{scilastnote}{%
-\setcounter{lastnote}{\value{enumiv}}%
-\addtocounter{lastnote}{+1}%
-\begin{list}%
-{\arabic{lastnote}.}
-{\setlength{\leftmargin}{.22in}}
-{\setlength{\labelsep}{.5em}}}
-{\end{list}}
-
-
-% Include your paper's title here
-
 \title{An Introduction to Quantum Computing} 
-
-
-% Place the author information here.  Please hand-code the contact
-% information and notecalls; do *not* use \footnote commands.  Let the
-% author contact information appear immediately below the author names
-% as shown.  We would also prefer that you don't change the type-size
-% settings shown here.
-
 \author
 {Robert Olsthoorn\\
 \\
@@ -126,6 +83,7 @@ This paper will talk briefly about the recent history of quantum computing as we
 \tableofcontents
 
 \newpage
+\pagenumbering{arabic}
 
 \section{History}
 
@@ -401,10 +359,38 @@ The transformation $C_{not}$ is unitary since $C^*_{not} = C_{not}$ and $C_{not}
 \section{Applications}
 Though quantum computing is still a relatively young field, it has been propelled out of the view of just the researchers who were pursuing it as an interesting exploration of quantum mechanics into the field of high performance computing thanks primarily to the applications which have already been discovered and the potential applications that could be found in the near future. Currently, quantum computing is being explored within the realm of database searching using Grover's algorithm, which searches over an unsorted set of data in $\sqrt{n}$ time rather thean $n$ time. Also, quantum computing would allow for more effective modeling of quantum mechanics systems which are currently very resource intensive. In addition, it could prove valuable for modelling proteins and molecules and potentially simulating many different unique scnearios in this regard in order to discover solutions to existing medical problems. However, because the field is young, many implementations on a large scale are yet to be seen, and are still to be proven.
 \subsection{Current Implementation}
-DON'T KNOW WHAT THIS SECTION WAS GIONG TO BE FOR
+There are a number of proposals in order to actually build a quantum computer using ion traps, nuclear magnetic resonanace, optical and solid state techniques. \cite{non} However, all of these proposed implementations come with their own set of flaws and are mostly limited by the scale at which they can operate.
 \subsection{Encryption}
+Classically, in order to communicate in a secure manner between two people, public key encryption is used which relies on the multiplication of two large prime numbers to obtain a key, commonly known as RSA encryption.\par 
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.6\textwidth]{alice}
+    \caption{Alice and Bob graphic}
+\end{wrapfigure}
+Alice and Bob, are attempting to agree on a secret key so that they may communicate in private; however, a third person Eve, has access to their two channels of communication. The first channel is bi-directional for sending messages while the second channel is uni-directional with a transfer limit of only sending individual particles at once for establishing which key should be used. To establish the private key, Alice sends bits to Bob after encoding them in the quantum state of a photon. Alice randomly chooses one of two bases for encoding each bit.\footnote{The notation used below indicates the direction in which the photon is polarized. Depending on the direction of the polarization, photons will be measured with varying levels of success. Note that $\ket{\rightarrow} = (1/\sqrt{2})(\ket{\nearrow}-\ket{\nwarrow})$ and $\ket{\uparrow} = (1/\sqrt{2})(\ket{\nwarrow}+\ket{\nearrow})$. Thus photons passing through $A$ with state $\ket{\rightarrow} $ will be measured by $B$ as $\ket{\nearrow}$ with probability $.5$.\cite{non}}
+\begin{align*}
+&0\rightarrow \ket{\uparrow}\\
+&1\rightarrow \ket{\rightarrow}\\
+\end{align*}or\begin{align*}
+&0\rightarrow \ket{\nearrow}\\
+&1\rightarrow \ket{\nwarrow}\\
+\end{align*}
+Bob randomly picks a basis to use, and at the end of the message stream communicates that choice to Alice. With this knowledge, they can determine which bits have successfully transferred and can use these bits as the key. They will discard about 50\% of data.\par
+If Eve were to measure the state of the photons, she would have to randomly pick a basis to use when resending it resulting in a wrong basis selected 50\% of the time. This will lead to Bob to read the wrong value 25\% of the time. A higher error rate will be found, and thus detected so that Alice and Bob are aware that a thrd party (Eve) is listening in.
+Though many different techniques for creating quantum keys have been explored, none are substitutes for classic public key encryption systems.
+\subsubsection{Cracking public key}
+Uses shor's algorithm
 \subsection{Algorithms}
+Due to the exponential factor of the amount of states qubits can be in, an algorithm can be made to speed up the run time of NP-Hard and NP-Complete problems to run in closer to polynomial time. One example of this is prime factorization which is solved by Shor's algorithm and search on an unordered set which is solved by Grover's algorithm.
 \subsubsection{Shor's Algorithm}
+Shor's algorithm is of particular importance to certain government agencies, because current attempts at factoring of public keys would take years on a clasical computer. Factoring a number in polynomial time relies on being able to find the order\footnote{The ``order'' concept is TODO FILL IN INFORMATION HERE} of a number mod $N$.\cite{cis4930} Provided that this can be found then the algorithm is as follows
+\begin{enumerate}
+\item Pick a random $x<N$
+\item Compute $f = $gcd$(x, n)$; if $f\neq 1$, return $f$ (As it is a factor)
+\item Find the least $r$ such that $x^r\equiv 1 ($mod$\:N)$
+\item If either gcd$(x^{r/2}-1, N)$ or gcd$(x^{r/2}+1, N)$ is not 1, return it, as a factor
+\item Else, repeat from step 1
+\end{enumerate}
 \subsubsection{Grover's Algorithm}
 \subsubsection{Deutsch Algorithm}
 MIGHT BE LEFT OUT DUE TO IRRELEVANCE AND THE FACT THAT IT IS RATHER TRICKY TO UNDERSTAND
